@@ -9,16 +9,14 @@ public class Ejercicio7 {
 		String respuesta1 = "";
 		String respuesta2 = "";
 
-		if (calificacion >= 0 && calificacion < 30) {
-			respuesta1 = "Muy deficiente";
-		} else if (calificacion >= 0 && calificacion < 50) {
-			respuesta1 = "Insuficiente";
+		 if (calificacion >= 0 && calificacion < 50) {
+			respuesta1 = "Fuera de nivel";
 		} else if (calificacion >= 0 && calificacion < 75) {
-			respuesta1 = "Bien";
+			respuesta1 = "Nivel regular";
 		} else if (calificacion >= 0 && calificacion < 90) {
-			respuesta1 = "Notable";
+			respuesta1 = "Nivel medio";
 		} else if (calificacion >= 0 && calificacion <= 100) {
-			respuesta1 = "Sobresaliente";
+			respuesta1 = "Nivel maximo";
 		} else {
 			respuesta2 = "Por favor introduzca un valor entre 0% y 100%.";
 		}
