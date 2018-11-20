@@ -1,9 +1,13 @@
+import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio01 {
 
 	public static void main(String[] args) {
-		int num1 = 1;
-		int num2 = 2;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Introduzca su sueldo:"+"\n"+"Numero 1: ");
+		int num1 = sc.nextInt();
+		System.out.println("Numero 2: ");
+		int num2 = sc.nextInt();
 		String respuesta = "";
 
 		if (num1 > num2) {
