@@ -10,7 +10,7 @@ public class Ejercicio08 {
 		int dia = sc.nextInt();
 		String respuesta= "";
 		
-		if(mes==12&&(dia==25||dia==24)) {
+		if(mes==12&&dia==25) {
 			respuesta= "Es navidaaaad";
 		}
 		System.out.println(respuesta);
