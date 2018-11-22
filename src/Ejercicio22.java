@@ -13,7 +13,7 @@ public class Ejercicio22 {
 				cuenta += value;
 			}
 		} while (value != 9999);
-		System.out.println("La suma de todos los digitos que introdujo es: " + cuenta);
+		System.out.println("La suma de todos los digitos es: " + cuenta);
 
 	}
 }
