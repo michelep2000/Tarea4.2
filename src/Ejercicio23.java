@@ -25,7 +25,7 @@ public class Ejercicio23 {
 			System.out.println("---------------");
 			contain += saldo;
 			count++;
-		} while (cuenta > 0);
+		} while (cuenta >= 0);
 
 		System.out.println("La suma de todos los sueldos es: " + contain);
 
