@@ -6,7 +6,7 @@ public class Ejercicio27 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Ingrese un numero entre 1 y 10.");
 		int num = sc.nextInt(), tabla = 0, count = 0;
-		if (num > 0 && num < 13) {
+		if (num > 0 && num < 11) {
 
 			for (count = 1; count < 13; count++) {
 				tabla = num * count;

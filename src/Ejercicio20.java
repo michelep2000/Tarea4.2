@@ -9,14 +9,14 @@ public class Ejercicio20 {
 		System.out.println("Lista 1: ");
 		while (count1 <= 15) {
 			value = sc.nextInt();
-			suma1= suma1+ value;
+			suma1+= value;
 			count1++;
 		}
 		System.out.println("-----------------");
 		System.out.println("Lista 2: ");
 		while (count2 <= 15) {
 			value = sc.nextInt();
-			suma2= suma2+ value;
+			suma2+= value;
 			count2++;
 		}
 		if (suma1>suma2) {

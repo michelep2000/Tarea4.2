@@ -11,6 +11,7 @@ public class Ejercicio23 {
 
 			System.out.print("Cuenta " + count + ": ");
 			cuenta = sc.nextInt();
+			if(cuenta>=0) {
 			System.out.print("saldo " + count + ": ");
 			saldo = sc.nextInt();
 			
@@ -20,6 +21,7 @@ public class Ejercicio23 {
 				respuesta = "Deudor";
 			} else {
 				respuesta = "Nulo";
+			}
 			}
 			System.out.println(respuesta);
 			System.out.println("---------------");
